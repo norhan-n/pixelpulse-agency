@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PixelPulse Agency — Creative Digital Solutions</title>
+  <meta name="description" content="PixelPulse Agency: Creative digital experiences for university students and brands.">
+  <meta name="author" content="Norhan Ayman">
+</head>
+
+<body>
+  <!-- 1. Header & Navigation -->
+  <header>
+    <h1 id="site-title">PixelPulse Agency</h1>
+    <p id="site-tagline">Creative Digital Experiences</p>
+
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#map">Location</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- 2. Hero Section -->
+    <section id="hero">
+      <h2>Bring ideas to life with accessible design</h2>
+
+      <figure>
+        <video controls width="600" poster="assets/Image.jpg">
+          <source src="assets/video.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <figcaption>Showreel: Student-centered, inclusive interfaces</figcaption>
+      </figure>
+
+      <figure>
+        <audio controls>
+          <source src="assets/audio.mp3" type="audio/mpeg">
+          Your browser does not support HTML5 audio.
+        </audio>
+        <figcaption>Audio: PixelPulse creative direction teaser</figcaption>
+      </figure>
+    </section>
+
+    <!-- 3. About Us -->
+    <section id="about">
+      <h2>About Us</h2>
+
+      <article>
+        <h3>About in English</h3>
+        <p>PixelPulse is a creative agency focused on usability-first educational websites for university students.</p>
+        <blockquote>
+          <p><q>Design is not just what it looks like — design is how it works.</q></p>
+        </blockquote>
+      </article>
+
+      <article dir="rtl" lang="ar">
+        <h3>من نحن</h3>
+        <p>نحن وكالة إبداعية تركّز على تصميم واجهات تعليمية سهلة الاستخدام لطلاب الجامعات.</p>
+        <p>أسماء ثنائية الاتجاه: <bdi>نورهان Ayman</bdi>, <bdi>Ahmed علي</bdi>.</p>
+      </article>
+
+      <p>
+        Explore: https://example.com/guidelines/accessibility<wbr>/wcag<wbr>/contrast<wbr>/forms
+      </p>
+
+      <details>
+        <summary>Our values and process</summary>
+        <ul>
+          <li><mark>Empathy</mark> for student workflows</li>
+          <li>Evidence-driven iterations</li>
+          <li>Accessibility as a baseline</li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- 4. Services -->
+    <section id="services">
+      <h2>Services</h2>
+      <dl>
+        <dt>User Research</dt>
+        <dd>Surveys and interviews.</dd>
+        <dt>UX/UI Design</dt>
+        <dd>Wireframes and prototypes.</dd>
+      </dl>
+
+      <p>Onboarding completion:
+        <progress value="70" max="100"></progress>
+      </p>
+      <p>Accessibility score:
+        <meter value="0.85" min="0" max="1" optimum="0.9">0.85</meter>
+      </p>
+    </section>
+
+    <!-- 5. Portfolio -->
+    <section id="portfolio">
+      <h2>Portfolio Gallery</h2>
+
+      <article>
+        <h3>Student Portal</h3>
+        <figure>
+          <img src="assets/Image.jpg" alt="Student portal dashboard">
+          <figcaption>Dashboard clarity and quick actions</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h3>Course Registration</h3>
+        <figure>
+          <img src="assets/Image.jpg" alt="Course registration flow">
+          <figcaption>Step-by-step flow with validation</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <!-- 6. Testimonials -->
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+
+      <article>
+        <h3>Testimonial from سارة Mohammed</h3>
+        <blockquote>
+          <p>“Tasks became discoverable and faster.”</p>
+          <footer>— <bdi>سارة Mohammed</bdi></footer>
+        </blockquote>
+      </article>
+
+      <article>
+        <h3>Testimonial from Omar علي</h3>
+        <blockquote>
+          <p>“Accessibility features helped our visually impaired classmates complete forms independently.”</p>
+          <footer>— <bdi>Omar علي</bdi></footer>
+        </blockquote>
+      </article>
+    </section>
+
+    <!-- 7. Contact Form -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST" target="_blank" novalidate>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Full name</label>
+          <input id="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" type="email" required>
+
+          <label for="tel">Phone</label>
+          <input id="tel" type="tel">
+
+          <label for="url">Portfolio URL</label>
+          <input id="url" type="url">
+
+          <label for="search">Search interest</label>
+          <input id="search" type="search">
+
+          <label for="age">Age</label>
+          <input id="age" type="number" min="16" max="100">
+
+          <label for="budget">Budget</label>
+          <input id="budget" type="range" min="0" max="10000" step="500">
+
+          <label for="brand-color">Brand color</label>
+          <input id="brand-color" type="color">
+
+          <label for="date">Date</label>
+          <input id="date" type="date">
+
+          <label for="time">Time</label>
+          <input id="time" type="time">
+
+          <label for="dt">Datetime</label>
+          <input id="dt" type="datetime-local">
+
+          <label for="resume">Attach brief</label>
+          <input id="resume" type="file" multiple>
+
+          <label for="country">Country</label>
+          <select id="country">
+            <optgroup label="MENA">
+              <option>Egypt</option>
+            </optgroup>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message"></textarea>
+
+          <label for="service">Suggest a service</label>
+          <input list="services-list" id="service">
+          <datalist id="services-list">
+            <option value="Usability testing">
+            <option value="Wireframing">
+          </datalist>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- 8. Location Map -->
+    <section id="map">
+      <h2>Our Location</h2>
+      <iframe title="Map placeholder" width="560" height="315"
+        srcdoc="<p>Map placeholder. Replace with Google Maps embed.</p>">
+      </iframe>
+    </section>
+  </main>
+
+  <!-- 9. Footer -->
+  <footer>
+    <p>&copy; <time datetime="2025-12-04">2025</time> PixelPulse Agency — Built by <bdi>Norhan Ayman</bdi>.</p>
+    <pre><code>&lt;figure&gt;
+  &lt;img src="assets/Image.jpg" alt="Dashboard UI"&gt;
+  &lt;figcaption&gt;Student portal&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+  </footer>
+</body>
+</html>
